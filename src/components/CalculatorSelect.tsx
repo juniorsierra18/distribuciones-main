@@ -13,9 +13,6 @@ const CalculatorSelect: React.FC<Props> = ({ onSelect }) => {
       <select className={styles.select} onChange={(e) => onSelect(e.target.value as DistributionType)}>
         <option value="Exponencial">Exponencial</option>
         <option value="Poisson">Poisson</option>
-        <option value="Normal">Normal</option>
-        <option value="Erlang">Erlang</option>
-        <option value="Binomial">Binomial</option>
       </select>
     </div>
   );
